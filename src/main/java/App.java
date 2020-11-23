@@ -20,7 +20,7 @@ public class App {
                     case "ENCRYPT": {
                         System.out.println ( "Enter the statement you want to encrypt: " );
                         String input = bufferedReader.readLine ();
-                        System.out.println ( "Enter the desired (should be a number) key for encryption: " );
+                        System.out.println ( "Enter the desired number for encryption: " );
                         String key = bufferedReader.readLine ();
                         int encryptionKey = Integer.parseInt ( key );
 
@@ -33,7 +33,7 @@ public class App {
                     case "DECRYPT": {
                         System.out.println ( "Enter the statement you want to decrypt: " );
                         String input = bufferedReader.readLine ();
-                        System.out.println ( "Enter the desired (should be a number) key for decryption: " );
+                        System.out.println ( "Enter the desired  for decryption: " );
                         String key = bufferedReader.readLine ();
                         int decryptionKey = Integer.parseInt ( key );
 
