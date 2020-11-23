@@ -33,7 +33,7 @@ public class App {
                     case "DECRYPT": {
                         System.out.println ( "Enter the statement you want to decrypt: " );
                         String input = bufferedReader.readLine ();
-                        System.out.println ( "Enter the desired  for decryption: " );
+                        System.out.println ( "Enter the desired number for decryption: " );
                         String key = bufferedReader.readLine ();
                         int decryptionKey = Integer.parseInt ( key );
 
